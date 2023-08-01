@@ -125,8 +125,8 @@
   }
 
   .main-nav {
-    background-color: rgba(255, 255, 255, 0.9);
-    -webkit-backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.5);
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     position: absolute;
     top: 0;
@@ -139,7 +139,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 1s ease-in;
+    transition: all 0.3s ease-out;
 
     /* Hide navigation */
     /* Allows no transitions */
@@ -296,8 +296,6 @@
 
 /* Spacing System (px)
         2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 */
-
-
 
 /* fixing safari flexbox gap */
 

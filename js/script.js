@@ -59,7 +59,6 @@ const obs = new IntersectionObserver(
     }
   },
   {
-
     // in the viewport
     root: null,
     threshold: 0,
@@ -67,7 +66,6 @@ const obs = new IntersectionObserver(
   }
 );
 obs.observe(sectionHeroEl);
-
 
 // Fixing flexbox gap property missing in some Safari versions
 function checkFlexGap() {
@@ -86,4 +84,3 @@ function checkFlexGap() {
   if (!isSupported) document.body.classList.add("no-flexbox-gap");
 }
 checkFlexGap();
-

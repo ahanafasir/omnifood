@@ -55,4 +55,6 @@ Contributions to the Omnifood website are welcome! If you'd like to contribute, 
 4. Push your changes to your fork: `git push origin feature/your-feature-name`
 5. Open a pull request against the `main` branch of this repository.
 
+--
+
 Thank you.

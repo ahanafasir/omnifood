@@ -1,3 +1,9 @@
+:root {
+  --dark-clr: #333;
+  --accent-clr-1: #cf711f;
+  --accent-clr-2: #e67e22;
+}
+
 /***********************/
 /* Header */
 /***********************/
@@ -32,15 +38,16 @@
 .main-nav-link:visited {
   display: inline-block;
   text-decoration: none;
-  color: #333;
+  color: var(--dark-clr);
   font-weight: 500;
   font-size: 1.8rem;
+  padding: 1rem;
   transition: all 0.3s;
 }
 
 .main-nav-link:hover,
 .main-nav-link:active {
-  color: #cf711f;
+  color: var(--accent-clr-1);
 }
 
 .main-nav-link.nav-cta:link,
@@ -48,12 +55,12 @@
   padding: 1.2rem 2.4rem;
   border-radius: 9px;
   color: #fff;
-  background-color: #e67e22;
+  background-color: var(--accent-clr-2);
 }
 
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
-  background-color: #cf711f;
+  background-color: var(--accent-clr-1);
 }
 
 /* MOBILE */
@@ -69,7 +76,7 @@
 .icon-mobile-nav {
   height: 4.8rem;
   width: 4.8rem;
-  color: #333;
+  color: var(--dark-clr);
 }
 
 .icon-mobile-nav[name="close-outline"] {
@@ -153,7 +160,7 @@
 }
 
 .delivered-text span {
-  color: #cf711f;
+  color: var(--accent-clr-1);
   font-weight: 700;
 }
 
@@ -278,7 +285,7 @@
   font-size: 1.2rem;
   text-transform: uppercase;
   background-color: #51cf66;
-  color: #333;
+  color: var(--dark-clr);
   border-radius: 100px;
   font-weight: 600;
 }
@@ -297,7 +304,7 @@
 
 .meal-title {
   font-size: 2.4rem;
-  color: #333;
+  color: var(--dark-clr);
   font-weight: 600;
   margin-bottom: 3.2rem;
 }
@@ -319,7 +326,7 @@
 .meal-icon {
   height: 2.4rem;
   width: 2.4rem;
-  color: #e67e22;
+  color: var(--accent-clr-2);
 }
 
 .meal-img {
@@ -427,7 +434,7 @@
   text-transform: uppercase;
   font-size: 1.4rem;
   font-weight: 700;
-  color: #333;
+  color: var(--dark-clr);
   background-color: #ffd43b;
   padding: 0.8rem 8rem;
   transform: rotate(45deg);
@@ -449,7 +456,7 @@
 .plan-price {
   font-size: 6.2rem;
   font-weight: 600;
-  color: #333;
+  color: var(--dark-clr);
   margin-bottom: 1.6rem;
 }
 .plan-text {
@@ -476,7 +483,7 @@
 }
 
 .feature-icon {
-  color: #e67e22;
+  color: var(--accent-clr-2);
   height: 3.2rem;
   width: 3.2rem;
   background-color: #fdf2e9;
@@ -487,7 +494,7 @@
 
 .feature-title {
   font-size: 2.4rem;
-  color: #333;
+  color: var(--dark-clr);
   font-weight: 700;
   margin-bottom: 1.6rem;
 }
@@ -508,10 +515,14 @@
 .cta {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  background-color: #e67e22;
+  background-color: var(--accent-clr-2);
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.015);
   border-radius: 11px;
-  background-image: linear-gradient(to right bottom, #eb9843, #e67e22);
+  background-image: linear-gradient(
+    to right bottom,
+    #eb9843,
+    var(--accent-clr-2)
+  );
   overflow: hidden;
 }
 

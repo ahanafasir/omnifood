@@ -29,7 +29,7 @@ The Omnifood website is a user-friendly online platform that connects customers 
 
 To run the website locally or contribute to its development, follow these steps:
 
-1. Clone this repository: `git clone https://github.com/your-username/o-mnifood.git`
+1. Clone this repository: `git clone https://github.com/ahanafasir/o-mnifood.git`
 2. Navigate to the project directory: `cd omnifood`
 3. Open the `index.html` file in your preferred browser.
 

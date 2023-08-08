@@ -3,7 +3,7 @@ A static food subscription website developed with HTML, CSS &amp; JavaScript
 
 visit: https://o-mnifood.netlify.app/
 
-Welcome to the Omnifood website! This repository contains the source code and assets for the Omnifoodonline food delivery platform. Below, you'll find information on how to navigate, contribute, and deploy the website.
+Welcome to the Omnifood website! This repository contains the source code and assets for the Omnifood website. Below, you'll find information on how to navigate, contribute, and deploy the website.
 
 ## Table of Contents
 
@@ -16,16 +16,13 @@ Welcome to the Omnifood website! This repository contains the source code and as
 
 ## 1. Introduction
 
-The Omnifoodwebsite is a user-friendly online platform that connects customers with local restaurants for convenient food delivery. Users can explore restaurant menus, place orders, and enjoy a seamless ordering experience.
+The Omnifood website is a user-friendly online platform that connects customers with local restaurants for convenient food delivery. Users can explore restaurant menus, place orders, and enjoy a seamless ordering experience.
 
 ## 2. Features
 
-- Browse and discover a variety of local restaurants.
-- Explore detailed restaurant menus with images and descriptions.
-- Search for specific dishes or cuisines.
-- Easily customize orders and proceed to checkout.
-- Create an account for order history and personalized recommendations.
-- Responsive design for optimal viewing on different devices.
+- Fully functional UI (buttons, links, navigation)
+- Responsive design for optimal viewing on different devices
+- Form functionalities handled by Netlify
 
 ## 3. Getting Started
 
@@ -56,3 +53,5 @@ Contributions to the Omnifood website are welcome! If you'd like to contribute, 
 3. Make your changes and commit them: `git commit -m "Add your commit message"`
 4. Push your changes to your fork: `git push origin feature/your-feature-name`
 5. Open a pull request against the `main` branch of this repository.
+
+Thank you.
